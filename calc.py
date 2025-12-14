@@ -4,8 +4,8 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
-    return a * b
+def multiply(a, b, c):
+    return a * b * c
 
 def divide(a, b):
     if b == 0:
@@ -14,5 +14,5 @@ def divide(a, b):
 if __name__ == "__main__":
     print(add(5, 3))
     print(subtract(10, 4))
-    print(multiply(6, 7))
+    print(multiply(6, 7, 8))
     print(divide(20, 5))
